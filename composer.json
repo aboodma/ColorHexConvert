@@ -2,7 +2,7 @@
     "name": "aboodma/color_hex_convert",
     "description": "Timeaones",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "require": {
         "php": ">=8.0",
         "illuminate/support": "*"
