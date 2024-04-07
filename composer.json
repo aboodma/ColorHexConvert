@@ -1,0 +1,40 @@
+{
+    "name": "aboodma/color_hex_convert",
+    "description": "Timeaones",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aboodma\\ColorHexConvert\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aboodma\\ColorHexConvert\\ColorHexConverterServiceProvider"
+            ],
+            "aliases": {
+                "ColorHexConvert": "Aboodma\\ColorHexConvert\\ColorHexConverterFacade"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdulrahman Mardinli",
+            "email": "34406204+aboodma@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
