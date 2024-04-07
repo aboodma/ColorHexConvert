@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aboodma\\ColorHexConvert\\ColorHexConverterServiceProvider"
+                "Aboodma\\ColorHexConvert\\Provider\\ColorHexConverterServiceProvider"
             ],
             "aliases": {
-                "ColorHexConvert": "Aboodma\\ColorHexConvert\\ColorHexConverterFacade"
+                "ColorHexConvert": "Aboodma\\ColorHexConvert\\Facade\\ColorHexConverterFacade"
             }
         }
     },
