@@ -36,5 +36,15 @@
             "email": "34406204+aboodma@users.noreply.github.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aboodma\\ColorHexConverter\\ColorHexConverterServiceProvider"
+            ],
+            "aliases": {
+                "ColorHexConverter": "Aboodma\\ColorHexConverter\\ColorHexConverterFacade"
+            }
+        }
+    }
 }
